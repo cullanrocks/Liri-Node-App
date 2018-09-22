@@ -7,7 +7,7 @@ var prettyLines = "=============================================================
 var twitterClient = new Twitter(key.twitterKeys);
 var action = process.argv[2];
 var argument = process.argv.slice(3).join(" ");
-var twitterParams = { screen_name: "organicCircuit", count: 20 };
+var twitterParams = { screen_name: "", count: 20 };
 
 switch (action) {
     case "my-tweets":
